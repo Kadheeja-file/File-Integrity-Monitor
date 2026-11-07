@@ -4,7 +4,7 @@ import hashlib
 
 app = Flask(__name__)
 
-folder = "TestFiles"
+folder = "."
 
 def get_hash(path):
     with open(path, "rb") as f:
